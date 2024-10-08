@@ -1,0 +1,119 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f6fc;
+    color: #333;
+}
+
+header {
+    background-color: #f8b7c0;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 1% !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #f8b7c0;
+    background-color: #fff;
+    border-radius: 35px;
+}
+
+.services-banner {
+    background-image: url("../images/clouds2.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services-banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.services-banner p {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+}
+
+.detailed-services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.detailed-services h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3-column layout */
+    gap: 20px;
+}
+
+.service {
+    background-color: #e9f6fc;
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 1.5em;
+    color: #f8b7c0;
+}
+
+.service p {
+    font-size: 1em;
+    color: #555;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8b7c0;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: #aae2f8;
+    color: #555;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+
+.cta-button:hover {
+    background-color: #75c6e6;
+}
