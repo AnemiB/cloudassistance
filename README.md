@@ -1,7 +1,7 @@
-## <p align="center" style="text-decoration: none !important;padding:0;margin:0;">Anemi Breytenbach <br> 231178 <br> DV 200 Term 3</p>
+## <p align="center" style="text-decoration: none !important;padding:0;margin:0;">Anemi Breytenbach <br> 231178 <br> DV 200 <br> Cloud Assistance</p>
 
 <p align="center">
-<img src="cloudassistance/images/logo.svg" alt="Logo" width="160" height="140">
+<img src="/images/logo.svg" alt="Logo" width="160" height="140">
 </p>
 
 ## Table of Contents
@@ -11,19 +11,17 @@
   * [Project description](#project-description)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [How to install](#how-to-install)
 * [Features and Functionality](#features-and-functionality)
 * [Concept Process](#concept-process)
    * [Ideation](#ideation)
-   * [Wireframes](#wireframes)
 * [Development Process](#development-process)
     * [Implementation](#implementation)
     * [Highlights](#highlights)
     * [Challenges](#challenges)
 * [Future Implementation](#future-implementation)
 * [Final Outcome](#final-outcome)
-    * [Video Demonstration](#demonstration-video)
+    * [Website Link](#website-link)
 * [Conclusion](#conclusion)
 * [Author](#author)
 * [License](#license)
@@ -33,85 +31,83 @@
 ## About the project:
 ![Screenshot (12182)](https://github.com/user-attachments/assets/40ef7da5-a123-4abd-b6f3-649818357118)
 
-### Mockup:
+### Mockups:
 ![MacBook_Dresser_Mockup_3_optimized_10](https://github.com/user-attachments/assets/69bee4e5-0e4c-462f-9f09-288306bf6622)
 
 
 ### Project description:
-The goal of this project was to develop a web application that utilizes server-side technology to store user data and information. I chose to create a Q&A website tailored for history-related questions, allowing users to post and answer questions, as well as comment on historical topics. XAMPP was an ideal choice for this project, as it efficiently handles MySQL and PHP, enabling me to fully leverage its capabilities for managing my databases.
+The goal of this project was to create a virtual assistant services company with various pages. The challenge was to host this project and track the engagements of the website.
 
 ### Built with:
-- [PHP](https://www.php.net/)
-- [MySQL](https://www.mysql.com/)
-- [XAMPP](https://www.apachefriends.org/index.html)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [HTML]
+- [CSS]
 
 ## Getting Started:
 Follow the steps below to get a copy of the project running on your local machine.
 
-### Prerequisites
-
-- Download and install [XAMPP](https://www.apachefriends.org/index.html), which includes Apache, PHP, and MySQL.
-- Make sure your system is running the latest version of PHP and MySQL.
-
 ### How to Install:
-* Download the files
-* Place the `historyscapers` folder inside your XAMPP `htdocs` folder
-* Create a database called `historyscapers` and import the SQL file provided
-* Start XAMPP Control Panel
-* Start Apache and MySQL
-* Enjoy the web application by navigating to `http://localhost/historyscapers`
+* Download the project files from the GitHub repository.
+* Open the project folder.
+* Simply launch the index.html file in your web browser.
+* This project does not require any back-end setup, database, or installation tools
 
 ## Features and Functionality:
-The web application consists of five main pages:
+The web application consists of four main pages:
 
-- **Sign Up and Log In Pages**: Handle user registration and authentication.
-- **Main Feed**: Displays all the questions posted by users along with attached images. Users can only delete or update their own questions. The page also features a search bar for finding relevant questions.
-- **Answer Page**: Displays the selected question, answers, and comments. Users can post answers, comment, and like both answers and comments.
-- **Profile Page**: Users can update their personal information, including username, email, and password.
-- **Create Question Page**: Users can post new questions with a title, body, and optional images.
+- **Home Page**
+Key Services Section: Administrative Support, Customer Service Support, Social Media Management, and Project Management.
+How It Works:
+Contact us to discuss your requirements.
+We assign a dedicated virtual assistant to your tasks.
+You focus on your business while we handle the rest.
 
-Each page includes a navigational link to log out and return to the Log In screen.
+- **About Us Page**
+Why Choose Us Section: Professionalism, flexibility, and transparent pricing.
+Meet the Team Section: Team bios and expertise in administration, customer service, and marketing.
+
+- **Services Page**
+Administrative Support: Calendar management, data entry, and document creation.
+Customer Service Support: Phone and email support, ticket management, and live chat.
+Social Media Management: Content creation, scheduling, and platform growth strategies.
+Project Management: Task coordination and tracking through tools like Asana and Trello.
+Specialized Support: Bookkeeping, CRM management, event planning, and market research.
+
+- **Contact Us Page**
+Contact Form
+Contact Information: Phone, email, and live chat option.
+FAQ Section: Answers common questions like:
+“What tasks can a virtual assistant handle?”
+“How do I get started?”
 
 ## Concept Process:
 
 ### Ideation:
-For the ideation phase, I envisioned a Q&A website specifically focused on historical questions. Starting with wireframes, I refined the design to its current state.
-
-### Wireframes:
-Log In, Sign Up, Main Feed, Post Question, View Question Answers
-
-![Group 32](https://github.com/user-attachments/assets/6780b456-0121-44d0-86cc-326802b58bb4)
-
+The goal was to create a simple yet effective informational website with a focus on usability and aesthetics. The website promotes professional virtual assistant services in a clear, concise way. The primary challenge was to make the website visually engaging without using JavaScript or complex functionality.
 
 ## Development Process
 
 ### Implementation Process
 
-- Implemented CRUD functionalities using PHP and MySQL.
-- Styled the application using plain CSS and HTML.
-- Integrated JavaScript for additional frontend functionality.
+HTML and CSS: The structure was built with semantic HTML, and CSS was used for styling and layout.
+Responsive Design: CSS media queries were used to ensure the site looks good on both desktop and mobile devices.
 
 ### Highlights:
-One highlight was the hands-on practice with database design and management. This project solidified my understanding of relational integrity and data normalization. Working with PHP and MySQL, particularly in terms of user authentication and dynamic content, was another enjoyable challenge.
+Simple, engaging design: The visual layout encourages user engagement with call-to-action buttons.
 
 ### Challenges:
-One major challenge was file corruption errors, which required rigorous version control and backup practices. Another challenge was establishing parent-child relationships in the database for comments linked to both questions and answers. Overcoming these taught me valuable database management lessons.
+One major challenge was file corruption errors, as issues with hosting in Axxess, but they were solved with much help from their attentive hosting support team.
 
 ## Future Implementation:
-In the future, I plan to add features such as profile pictures, an improved like count, and possibly badges or reputation scores to further engage users.
+In the future, I plan to add features such as adding basic JavaScript interactivity (e.g., form validation and FAQ accordion). Implement a CSS animation for the banner to enhance engagement. Explore SEO optimization techniques to increase site visibility.
 
 ## Final Outcome
 
-### Demonstration Video
-https://drive.google.com/file/d/1rvC4l12_sevLojgkqTrCnqQIp6AJeyN8/view?usp=sharing
+### Website Link
+http://cloudassistancevirtual.co.za
 
-## Roadmap
-ER Diagram
-![history drawio (1)](https://github.com/user-attachments/assets/5b0e7393-fa9b-4f1d-92e4-d694542e4a3d)
 
 ## Conclusion
-This project has been an enriching experience, allowing me to grow both technically and professionally. I've gained a deeper understanding of database management and web development. Looking ahead, I see opportunities for further improvement and expansion, such as enhancing the user experience and adding new features. This journey has provided valuable lessons that will serve as a foundation for future endeavors.
+This project has taught me a significant deal about axxess and over all website hosting.
 
 ## Author
 
@@ -124,4 +120,10 @@ Distributed under the MIT License.
 ## Contact
 
 - **Anemi Breytenbach** - [231178@virtualwindow.co.za] 
-- **Project Link** - [ https://github.com/AnemiB/term3year](https://github.com/AnemiB/term3year)
+- **Project Link** - [ https://github.com/AnemiB/cloudassistance](https://github.com/AnemiB/cloudassistance)
+
+## Acknowledgements
+
+HTML
+CSS
+Axxess
