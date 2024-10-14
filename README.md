@@ -29,10 +29,17 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About the project:
-![Screenshot (12182)](https://github.com/user-attachments/assets/40ef7da5-a123-4abd-b6f3-649818357118)
+![Screenshot (12530)](https://github.com/user-attachments/assets/370e6874-e57b-4d9c-a6ed-d03938aeb0c7)
+
 
 ### Mockups:
-![MacBook_Dresser_Mockup_3_optimized_10](https://github.com/user-attachments/assets/69bee4e5-0e4c-462f-9f09-288306bf6622)
+![cloud](https://github.com/user-attachments/assets/a2fe2f1d-8fa0-4c02-a718-c709e0e668e0)
+![cloud 2](https://github.com/user-attachments/assets/ab319ae1-007a-4a65-80ce-c59e3ca14e13)
+![cloud 3](https://github.com/user-attachments/assets/9e4efc81-940c-4baf-b70a-0ed3d3d4654d)
+![Uploading cloud 4.png…]()
+
+
+
 
 
 ### Project description:
@@ -124,6 +131,6 @@ Distributed under the MIT License.
 
 ## Acknowledgements
 
-HTML
-CSS
-Axxess
+* HTML
+* CSS
+* Axxess
